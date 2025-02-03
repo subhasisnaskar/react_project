@@ -36,7 +36,7 @@ const Partner = () => {
   return (
     <>
     {cards.map(card => (
-        <div className="col-md-6 col-sm-6 mb-4 col-6"  key={card.id}>       
+        <div className="col-md-4 col-sm-6 mb-4 col-6"  key={card.id}>       
           <div className="card partner_box" >
           <img src={card.imageUrl} alt={card.title} className="card-img-top" />         
           </div> 
